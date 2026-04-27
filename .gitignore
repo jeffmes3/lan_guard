@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+reports/
+*.jsonl
+lan_guard_report.*
+lan_guard_baseline.json
+lan_guard_schedule.cron
+.pytest_cache/
+.mypy_cache/

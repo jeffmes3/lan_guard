@@ -1,0 +1,3 @@
+# Optional. Core LAN Guard uses Python standard library plus system tools.
+# Install scapy only if you want optional promiscuous-mode probes.
+scapy>=2.5.0

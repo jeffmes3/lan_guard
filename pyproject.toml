@@ -1,0 +1,16 @@
+[project]
+name = "lan-guard"
+version = "0.5.0"
+description = "Defensive LAN MITM and sniffing-indicator detector"
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+lan-guard = "lan_guard:main"
+
+[tool.ruff]
+line-length = 120
+
+[tool.black]
+line-length = 120
